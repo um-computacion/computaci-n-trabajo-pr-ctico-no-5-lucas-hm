@@ -1,8 +1,9 @@
 class Persona:
-    def __init__(self, nombre, apellido, dni):
+    def __init__(self, nombre, apellido, dni, sueldo):
         self.nombre = nombre
         self.apellido = apellido
         self.dni = dni
+        self.sueldo = sueldo
         self.pensamientos = 0
         self.ultima_idea = "<no penso en nada>"
 

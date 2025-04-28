@@ -1,7 +1,7 @@
 from src.persona import Persona
 
 class Profesor(Persona):
-    def __init__(self, nombre, apellido, dni):
+    def __init__(self, nombre, apellido, dni, sueldo):
         super().__init__(nombre, apellido, dni)
         self.sueldo = sueldo
         
